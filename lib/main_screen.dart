@@ -80,61 +80,29 @@ class _MainScreenState extends State<MainScreen> {
                       width: 10,
                     ),
                     MenuTab(text: '뉴스'),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    MenuTab(
-                      text: '실시간',
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    MenuTab(
-                      text: '믹스',
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    MenuTab(
-                      text: '노래',
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    MenuTab(
-                      text: '코딩',
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    MenuTab(
-                      text: '코딩',
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    MenuTab(
-                      text: '코딩',
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    MenuTab(
-                      text: '코딩',
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    MenuTab(
-                      text: '코딩',
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
+                    SizedBox(width: 10),
+                    MenuTab(text: '실시간'),
+                    SizedBox(width: 10),
+                    MenuTab(text: '믹스'),
+                    SizedBox(width: 10),
+                    MenuTab(text: '노래'),
+                    SizedBox(width: 10),
+                    MenuTab(text: '코딩'),
+                    SizedBox(width: 10),
+                    MenuTab(text: '코딩'),
+                    SizedBox(width: 10),
+                    MenuTab(text: '코딩'),
+                    SizedBox(width: 10),
+                    MenuTab(text: '코딩'),
+                    SizedBox(width: 10),
+                    MenuTab(text: '코딩'),
+                    SizedBox(width: 10),
                   ],
                 ),
               ),
+              const SizedBox(height: 10),
               const PlayList(),
+              const SizedBox(height: 10),
               SizedBox(
                 height: 200,
                 child: Image.asset('assets/images/image2.png'),
@@ -257,6 +225,7 @@ class PlayList extends StatelessWidget {
     return Column(
       children: [
         Image.asset('assets/images/oh_sam.jpg'),
+        const SizedBox(height: 10),
         const Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
@@ -264,7 +233,7 @@ class PlayList extends StatelessWidget {
               width: 50,
               height: 50,
               child: CircleAvatar(
-                backgroundImage: AssetImage(imageUrl),
+                backgroundImage: AssetImage('assets/images/oh_sam.jpg'),
               ),
             ),
             SizedBox(width: 10),
