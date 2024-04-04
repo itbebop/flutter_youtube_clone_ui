@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_youtube_clone_ui/main_screen.dart';
+import 'package:flutter_youtube_clone_ui/presentation/main/main_screen.dart';
 
 void main() {
   runApp(const MyApp());
